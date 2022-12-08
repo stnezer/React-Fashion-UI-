@@ -1,8 +1,117 @@
-.App {
+.App { 
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 3px red;
+  border-radius: 20px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  line-height: 0;
 }
 
-.App-logo {
+/* the main section: background image and flex cards  */
+.cards{
+  height: 81vh;
+  display: flex;
+  /* background-image:  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, rgba(19, 9, 9, 0.867), rgba(10, 7, 7, 0.677)), url("https://cdn.w600.comps.canstockphoto.com/old-sewing-machine-vector-clipart_csp7392830.jpg");
+}
+.App img {
+  border-radius: 10px;
+  margin: 0;
+}
+.App p {
+  font-size: 13px;
+}
+/* the intro word on the main */
+.mainword{
+  position: absolute;
+  /* margin: 100px 350px; */
+  left: 350px;
+  top: 200px;
+  color: rgba(180, 184, 133, 0.969);
+  text-align: center;
+  line-height: 15px;
+  font-size: larger;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: rgba(173, 156, 130, 0.2);
+
+}
+
+/* narbar styling */
+.Navstyle {
+  background-color: black;
+  box-shadow: 0 0 10px red;
+  display: flex;
+  padding: 5px;
+  /* margin: 20px; */
+  color: white;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.Navstyle h4{
+  margin: 20px;
+}
+.Navstyle div a {
+  padding-right: 30px;
+}
+
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.aboutus img {
+  border-radius: 20px;
+  margin: 20px;
+  /* width: 100%; */
+}
+.aboutus p{
+  height: 50vh;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  margin: auto;
+}
+
+/* footer styling */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: goldenrod;
+  background-color: rgb(57, 34, 34);
+}
+.footer div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +144,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+ 
